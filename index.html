@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Creative - Start Bootstrap Theme</title>
+  <title>Phat Thai SF</title>
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <!-- Google Fonts -->
@@ -32,10 +32,10 @@
             <a class="nav-link js-scroll-trigger" href="#calendar_section">Calendar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#Menu">Menu</a>
+            <a class="nav-link js-scroll-trigger" href="#menu">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#Photos">Photos</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Photos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#catering">Catering</a>
@@ -86,122 +86,184 @@
     </section>
 
   <!-- Services Section -->
-  <section class="page-section" id="services">
+  <section class="page-section" id="menu">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
+      <h2 class="text-center mt-0">Menu</h2>
       <hr class="divider my-4">
-      <div class="row">
+      <div class="d-flex flex-row justify-content-center">
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <i class="fas fa-4x fa-utensils text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Everyday Menu</h3>
+            <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Select</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Signiture Dishes</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Pad Thai</h3>
+                        <p class="menu">Fresh stir-fried rice noodles with original homemade pad thai sauce, tofu, egg, bean sprouts, green onion, cilantro and your choice of chicken, beef, prawns (+$2), or vegetarian.</p>
+                      <h3>Pad Se-Ew</h3>
+                        <p class="menu">Flat rice noodles stir fried in a soy based sauce with eggs, mixed with eggs, mixed vegetables with your choice of chicken, beef, prawns (+$2), or vegetarian.</p>
+                      <h3>Som Tum Salad</h3>
+                        <p class="menu">Shredded green papaya tossed with cherry tomatoes, carrots, Thai chilies, lime juice, and topped with crushed peanuts.</p>
+                      <h3>Ka Pow</h3>
+                        <p class="menu">Stir fried chicken with Thai basil, bell peppers, and Thai chilies served over rice.</p>
+                      <h3>Side Cucumber Salad</h3>
+                        <p class="menu">Sliced cucumber with shredded carrots and red onions drizzeled with vinegar dressing.</p>
+                      <h3>Thai Iced Tea</h3>
+                      <h3>Thai Iced Coffee</h3>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
           </div>
         </div>
+
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            <i class="fas fa-4x fa-pepper-hot text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Rotating Specials</h3>
+            <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#specials_modal">Select</button>
+              <!-- Modal -->
+              <div class="modal fade" id="specials_modal" tabindex="-1" role="dialog" aria-labelledby="speacials_modal_Title" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="speacials_modal_Title">Specials</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Keep updated with twitter/facebook to see daily specials</h4>
+                      <h3>Phat Wings</h3>
+                        <p class="menu">Crispy deep-fried chicken wings slathered in orginal homemade Phat wing sauce.</p>
+                      <h3>Phat Rolls</h3>
+                        <p class="menu">Crispy deep-fried vegetarian egg-rolls served with original homemade egg-roll sauce.</p>
+                      <h3>Masamun Curry</h3>
+                        <p class="menu">Curry sauce with coconut milk, beef, onions, potatoes, pineapple, and peanuts served over rice.</p>
+                      <h3>Red Curry</h3>
+                        <p class="menu">A milder curry with kabocha squash, green beans, bell peppers Thai basil and chicken or vegetarian.</p>
+                      <h3>Yellow Curry</h3>
+                        <p class="menu">Yellow curry sauce with coconut milk, chicken, and potatoes served with rice.</p>
+                      <h3>Green Curry</h3>
+                        <p class="menu">Spicest of the curries, this includes green beans, Thai basil, bell peppers, and beef or vegetarian.</p>
+                      <h3>Garlic Pork</h3>
+                        <p class="menu">Stir fried marinated pork and garlic served with rice and cucumbers.</p>
+                      <h3>Tom Kha Gai</h3>
+                        <p class="menu">Coconut soup with chicken, white button mushrooms, lemon grass, fresh herbs, and lime juice.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
 
   <!-- Portfolio Section -->
-  <section id="portfolio">
+  <section id="portfolio" class="photos">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+        <div class="col-lg-4 col-sm-6" id="img-container">
+          <a class="portfolio-box" href="img/photos/1.jpg">
+            <img class="img-fluid" src="img/photos/1.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+          <a class="portfolio-box" href="img/photos/4.jpg">
+            <img class="img-fluid" src="img/photos/4.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+          <a class="portfolio-box" href="img/photos/5.jpg">
+            <img class="img-fluid" src="img/photos/5.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+          <a class="portfolio-box" href="img/photos/6.jpg">
+            <img class="img-fluid" src="img/photos/6.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+          <a class="portfolio-box" href="img/photos/7.jpg">
+            <img class="img-fluid" src="img/photos/7.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
+          <a class="portfolio-box" href="img/photos/9.jpg">
+            <img class="img-fluid" src="img/photos/9.jpg" alt="">
+            <div class="portfolio-box-caption">
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/photos/10.jpg">
+            <img class="img-fluid" src="img/photos/10.jpg" alt="">
+            <div class="portfolio-box-caption">
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/photos/11.jpg">
+            <img class="img-fluid" src="img/photos/11.jpg" alt="">
+            <div class="portfolio-box-caption">
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/photos/17.jpg">
+            <img class="img-fluid" src="img/photos/17.jpg" alt="">
+            <div class="portfolio-box-caption">
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/photos/magnets.jpg">
+            <img class="img-fluid" src="img/photos/magnets.jpg" alt="">
+            <div class="portfolio-box-caption">
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/photos/mango.png">
+            <img class="img-fluid" src="img/photos/mango.png" alt="">
+            <div class="portfolio-box-caption">
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/photos/rolls.png">
+            <img class="img-fluid" src="img/photos/rolls.png" alt="">
+            <div class="portfolio-box-caption">
             </div>
           </a>
         </div>
@@ -219,6 +281,50 @@
     </div>
     </div>
   </section>
+
+  <section class="page-section" id="press">
+    <div class="d-flex justify-content-center">
+    <div class="card m-3" style="width: 18rem; min-height:20rem">
+        <a href="http://blogs.sfweekly.com/foodie/2012/09/food_truck_bite_of_week_phat_thai.php" target="_blank"><img class="card-img-top" src="img/press/sf-weekly.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text">Food Truck Bite of the Week: Pad Thai at Phat Thai.</p>
+      </div>
+    </div>
+    <div class="card m-3" style="width: 18rem; min-height:20rem">
+        <a href="http://eatst.foodnetwork.ca/blog/a-week-in-the-making-of-eatsttv-in-san-francisco.html" target="_blank"><img class="card-img-top" src="img/press/Eat_St_logo_FINAL5.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text">A Week in the Making of #EatStTV in San Francisco</p>
+      </div>
+    </div>
+    <div class="card m-3" style="width: 18rem; min-height:20rem">
+        <a href="http://eatst.foodnetwork.ca/blog/eat-st-filming-on-location-san-francisco-on-may-7-13.html" target="_blank"><img class="card-img-top" src="img/press/Eat_St_logo_FINAL5.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <div class="card m-3" style="width: 18rem; min-height:20rem">
+        <a href="http://www.huffingtonpost.com/2012/01/23/nancy-pelosi-food-truck-tour_n_1210899.html#s618135" target="_blank"><img class="card-img-top" src="img/press/logo-huffington-post.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <div class="card m-3" style="width: 18rem; min-height:20rem">
+        <a href="" target="_blank"><img class="card-img-top" src="img/press/.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <div class="card m-3" style="width: 18rem; min-height:20rem">
+        <a href="" target="_blank"><img class="card-img-top" src="img/press/.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div>
+    
+    </div>
+  </section>
+
+  
 
     <!-- About Section -->
     <section class="page-section bg-primary" id="about">
@@ -270,9 +376,16 @@
     </div>
   </footer>
 
+  <script>
+    function OpenInNewTab() {
+    var screenwidth = screen.width-500;
+    window.open("http://m.me/phatthaisf?ref=chat_widget", '_blank',"width=650,height=800,left="+screenwidth);
+    }
+  </script>
+
   <a href="http://m.me/phatthaisf?ref=chat_widget" target="_blank" onclick="OpenInNewTab();"><div class="fbmessenger">
-      <img src="img/fbmessenger.png" />
       <span class="tooltiptext mobilehidden">Hey there 👋🏼!</span>
+      <img src="img/fbmessenger.png" />
       </div>
   </a>
 
