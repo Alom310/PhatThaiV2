@@ -10832,8 +10832,11 @@ header.masthead h1 {
 
 #logo_pic{
   display: none;
-  width:40%;
+  width:50%;
+}
 
+#logo_pic_anchor{
+  width:250px;
 }
 
 @media (min-width: 768px) {
@@ -10862,16 +10865,7 @@ header.masthead h1 {
     width: 370px;
     height:300px;
   }
-  
-  #logo_text{
-    display:none
-  }
-
-  #logo_pic{
-    display:block;
-  }
-
-  
+    
 }
 
 @media (max-width : 991px){  
@@ -10880,6 +10874,6 @@ header.masthead h1 {
   }
 
   #logo_pic{
-    display:block;
+    display:inline-block;
   }
 }
