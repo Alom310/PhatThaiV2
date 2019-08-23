@@ -10813,6 +10813,10 @@ header.masthead h1 {
 -webkit-filter: drop-shadow(2px 6px 4px rgba(0,0,0,.3));
 }
 
+.fab{
+  font-size: 25px;
+}
+
 @media (min-width: 768px) {
   .carousel-multi-item-2 .col-md-3 {
   float: left;
@@ -10824,18 +10828,6 @@ header.masthead h1 {
 
 
 
-/* @media (max-width : 800px){
-  #calendar{
-    width: 550px;
-    height: 500px;
-  }
-
-  #video{
-    width: 550px;
-    height:500px;
-  }
-} */
-
 @media (max-width : 800px){
   #calendar{
     width: 370px;
@@ -10846,4 +10838,6 @@ header.masthead h1 {
     width: 370px;
     height:300px;
   }
+
+  
 }
