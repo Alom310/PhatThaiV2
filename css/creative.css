@@ -10675,8 +10675,26 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/photos/17.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/photos/17.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#calendar_section{
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/tuktuk-banner.jpg");
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/tuktuk-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#catering{
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/photos/magnets.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.9) 0%, rgba(92, 77, 66, 0.9) 100%), url("../img/photos/magnets.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10759,19 +10777,14 @@ header.masthead h1 {
   opacity: 1;
 }
 
-/* #calendar_section{
-  padding: 4rem;
-} */
+
 
 #outer{
   width: auto;
   margin: 0 auto;
 }
 
-/* #video{
-  max-width: 650px;
-  max-height: 400px;
-} */
+
 
 #email-button {
 	cursor: pointer;
@@ -10817,6 +10830,12 @@ header.masthead h1 {
   font-size: 25px;
 }
 
+#logo_pic{
+  display: none;
+  width:50%;
+
+}
+
 @media (min-width: 768px) {
   .carousel-multi-item-2 .col-md-3 {
   float: left;
@@ -10830,21 +10849,38 @@ header.masthead h1 {
 
 @media (max-width : 800px){
   #calendar{
-    width: 370px;
-    height: 300px;
+    width: 360px;
+    height: 350px;
   }
 
   #video{
-    width: 370px;
+    width: 360px;
     height:300px;
   }
 
   #image-fluid{
     width: 370px;
     height:300px;
-
   }
   
+  #logo_text{
+    display:none
+  }
+
+  #logo_pic{
+    display:block;
+  }
 
   
 }
+
+@media (max-width : 991px){  
+  #logo_text{
+    display:none
+  }
+
+  #logo_pic{
+    display:block;
+  }
+
+  
