@@ -10832,7 +10832,7 @@ header.masthead h1 {
 
 #logo_pic{
   display: none;
-  width:50%;
+  width:40%;
 
 }
 
@@ -10882,5 +10882,4 @@ header.masthead h1 {
   #logo_pic{
     display:block;
   }
-
-  
+}
