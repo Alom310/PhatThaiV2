@@ -6976,7 +6976,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #b6b6b6 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -10695,6 +10695,15 @@ header.masthead {
 #catering{
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/photos/magnets.jpg");
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.9) 0%, rgba(92, 77, 66, 0.9) 100%), url("../img/photos/magnets.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#twitter-section{
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/photos/mango.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.9) 0%, rgba(92, 77, 66, 0.9) 100%), url("../img/photos/mango.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
